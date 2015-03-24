@@ -1,8 +1,9 @@
-﻿namespace GoogleRecaptchaMvc
+﻿
+namespace GoogleRecaptchaMvc
 {
 	using System;
 	using System.Web;
-	using System.Web.Mvc;
+	using System.Web.WebPages.Html;
 
     public static class RecaptchaMvcExtensions
     {
