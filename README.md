@@ -23,7 +23,8 @@ __Index.cshtml__:
 @using GoogleRecaptchaMvc // You can put this as the global namespace in Web.config
 
 // ...
-@Html.RecaptchaV2("[YOUR_SITE_KEY]") // Create the html control for Google Recaptcha version 2.
+// Create the html control for Google Recaptcha version 2.
+@Html.RecaptchaV2("[YOUR_SITE_KEY]")
 // ...
 ```
 
