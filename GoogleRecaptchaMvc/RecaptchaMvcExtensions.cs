@@ -2,7 +2,7 @@
 {
 	using System;
 	using System.Web;
-	using System.Web.WebPages.Html;
+	using System.Web.Mvc;
 
 	/// <summary>
 	/// This static class contains the extension methods to create the html controls for asp.net mvc.
