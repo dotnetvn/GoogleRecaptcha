@@ -14,3 +14,4 @@ E:\projects\GoogleRecaptcha\GoogleRecaptchaMvc\bin\Debug\System.Web.Razor.xml
 E:\projects\GoogleRecaptcha\GoogleRecaptchaMvc\bin\Debug\System.Web.WebPages.xml
 E:\projects\GoogleRecaptcha\GoogleRecaptchaMvc\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\projects\GoogleRecaptcha\GoogleRecaptchaMvc\bin\Debug\System.Web.WebPages.Razor.xml
+E:\projects\GoogleRecaptcha\GoogleRecaptchaMvc\obj\Debug\GoogleRecaptchaMvc.csprojResolveAssemblyReference.cache
