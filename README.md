@@ -62,6 +62,9 @@ If any issue or bug, please push a new issue [here](https://github.com/congdongd
 
 ### Release Notes
 * 1.0.0: The first version supports only for Google reCaptcha version 2 and asp.net mvc 4(or higher).
+* 1.0.1: Add the meaningful comments into code and fix some following performance bugs:
+    * Dispose and close the unnecessary resources when using MemoryStream.
+    * Use the HtmlHelper class in the namespace System.Web.Mvc instead of System.Web.WebPages.Html.
 
 ### Copyright and License
 Copyright 2015 by CongDongDotNet - MIT License
