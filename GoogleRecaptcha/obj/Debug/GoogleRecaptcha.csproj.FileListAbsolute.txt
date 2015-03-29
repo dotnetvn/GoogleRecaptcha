@@ -2,3 +2,8 @@ E:\projects\GoogleRecaptcha\GoogleRecaptcha\bin\Debug\GoogleRecaptcha.dll
 E:\projects\GoogleRecaptcha\GoogleRecaptcha\bin\Debug\GoogleRecaptcha.pdb
 E:\projects\GoogleRecaptcha\GoogleRecaptcha\obj\Debug\GoogleRecaptcha.dll
 E:\projects\GoogleRecaptcha\GoogleRecaptcha\obj\Debug\GoogleRecaptcha.pdb
+D:\projects\google-recaptcha\GoogleRecaptcha\bin\Debug\GoogleRecaptcha.dll
+D:\projects\google-recaptcha\GoogleRecaptcha\bin\Debug\GoogleRecaptcha.pdb
+D:\projects\google-recaptcha\GoogleRecaptcha\obj\Debug\GoogleRecaptcha.csprojResolveAssemblyReference.cache
+D:\projects\google-recaptcha\GoogleRecaptcha\obj\Debug\GoogleRecaptcha.dll
+D:\projects\google-recaptcha\GoogleRecaptcha\obj\Debug\GoogleRecaptcha.pdb
