@@ -1,0 +1,10 @@
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\bin\GoogleRecaptcha.WebForms.dll.config
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\bin\GoogleRecaptcha.WebForms.dll
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\bin\GoogleRecaptcha.WebForms.pdb
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\bin\GoogleRecaptchaWebForms.dll
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\bin\GoogleRecaptcha.dll
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\bin\GoogleRecaptchaWebForms.pdb
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\bin\GoogleRecaptcha.pdb
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\obj\Debug\GoogleRecaptcha.WebForms.csprojResolveAssemblyReference.cache
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\obj\Debug\GoogleRecaptcha.WebForms.dll
+E:\projects\GoogleRecaptcha\GoogleRecaptcha.WebForms\obj\Debug\GoogleRecaptcha.WebForms.pdb

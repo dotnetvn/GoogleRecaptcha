@@ -5,3 +5,10 @@ D:\projects\google-recaptcha\GoogleRecaptchaWebForms\bin\Debug\GoogleRecaptcha.p
 D:\projects\google-recaptcha\GoogleRecaptchaWebForms\obj\Debug\GoogleRecaptchaWebForms.csprojResolveAssemblyReference.cache
 D:\projects\google-recaptcha\GoogleRecaptchaWebForms\obj\Debug\GoogleRecaptchaWebForms.dll
 D:\projects\google-recaptcha\GoogleRecaptchaWebForms\obj\Debug\GoogleRecaptchaWebForms.pdb
+E:\projects\GoogleRecaptcha\GoogleRecaptchaWebForms\bin\Debug\GoogleRecaptchaWebForms.dll
+E:\projects\GoogleRecaptcha\GoogleRecaptchaWebForms\bin\Debug\GoogleRecaptchaWebForms.pdb
+E:\projects\GoogleRecaptcha\GoogleRecaptchaWebForms\bin\Debug\GoogleRecaptcha.dll
+E:\projects\GoogleRecaptcha\GoogleRecaptchaWebForms\bin\Debug\GoogleRecaptcha.pdb
+E:\projects\GoogleRecaptcha\GoogleRecaptchaWebForms\obj\Debug\GoogleRecaptchaWebForms.csprojResolveAssemblyReference.cache
+E:\projects\GoogleRecaptcha\GoogleRecaptchaWebForms\obj\Debug\GoogleRecaptchaWebForms.dll
+E:\projects\GoogleRecaptcha\GoogleRecaptchaWebForms\obj\Debug\GoogleRecaptchaWebForms.pdb

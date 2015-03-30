@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8098D635-D169-421B-8264-C4972A1E9AAB}</ProjectGuid>
+    <ProjectGuid>{AB33C149-030C-4E2D-B135-36A5F1FF1CC4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GoogleRecaptchaWebForms</RootNamespace>
