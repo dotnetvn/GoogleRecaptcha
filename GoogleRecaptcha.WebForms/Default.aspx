@@ -5,12 +5,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Test the Google Recapcha V2 Server Control</title>
 </head>
 <body>
     <form id="frm" runat="server">
 		<div>
-			<asp:RecaptchaV2Control SiteKey="6LeF-QMTAAAAAPBTi98JAMFTF1lBzKrbyCri0JB_" SecretKey="6LeF-QMTAAAAAOw8M2RTtxoY6ifOhhUb4GlXpdB3" runat="server"/>
+			<asp:RecaptchaV2Control ID="gRecapcha" SiteKey="6LeF-QMTAAAAAPBTi98JAMFTF1lBzKrbyCri0JB_" SecretKey="6LeF-QMTAAAAAOw8M2RTtxoY6ifOhhUb4GlXpdB3" runat="server"/>
 		</div>
 		<asp:Button ID="btnVerify" runat="server" Text="Submit" OnClick="btnVerify_OnClick"/>
     </form>

@@ -22,6 +22,15 @@ namespace GoogleRecaptcha.WebForms {
         protected global::System.Web.UI.HtmlControls.HtmlForm frm;
         
         /// <summary>
+        /// gRecapcha control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::GoogleRecaptchaWebForms.RecaptchaV2Control gRecapcha;
+        
+        /// <summary>
         /// btnVerify control.
         /// </summary>
         /// <remarks>

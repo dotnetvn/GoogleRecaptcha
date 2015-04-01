@@ -88,9 +88,33 @@
 				new RecaptchaV2Data() { Secret = SecretKey });
 			var result = recaptcha.Verify();
 			IsValid = result.Success;
-			if(!IsValid && result.ErrorCodes.Length > 0)
+			if (IsValid) return;
+			if(result.ErrorCodes.Length > 0)
 			{
-				ErrorMessage = result.ErrorCodes[0];
+				ErrorMessage = String.Empty;
+				foreach (var errorCode in result.ErrorCodes)
+				{
+					switch (errorCode)
+					{
+						case "missing-input-secret":
+							ErrorMessage += "The secret parameter is missing - ";
+							break;
+						case "invalid-input-secret":
+							ErrorMessage += "The secret parameter is invalid or malformed - ";
+							break;
+						case "missing-input-response":
+							ErrorMessage += "The response parameter is missing - ";
+							break;
+						case "invalid-input-response":
+							ErrorMessage += "The response parameter is invalid or malformed - ";
+							break;
+					}
+					ErrorMessage = ErrorMessage.TrimEnd(' ', '-');
+				}
+			}
+			else
+			{
+				ErrorMessage = "Oops! Unknown error!";
 			}
 		}
 	}

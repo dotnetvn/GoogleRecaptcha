@@ -13,7 +13,7 @@
 		public string Secret { get; set; }
 
 		/// <summary>
-		/// Gets or sets the Response property. This property indicates that this is the response returned from the server.
+		/// Gets the Response property. This property indicates that this is the response returned from the server.
 		/// </summary>
 		public string Response
 		{
@@ -21,7 +21,7 @@
 		}
 
 		/// <summary>
-		/// Gets or sets the RemoteIp property. This property indicates that this is remote ip address from the client.
+		/// Gets the RemoteIp property. This property indicates that this is remote ip address from the client.
 		/// </summary>
 		public string RemoteIp
 		{
