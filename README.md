@@ -80,10 +80,11 @@ For asp.net web forms, after you have installed the library, you have two ways t
 ```
 * Refer to it in each pages aspx or user controls ascx:
 ```xml
-<%@ Register TagPrefix="asp" Namespace="GoogleRecaptchaWebForms" Assembly="GoogleRecaptchaWebForms" %>
+<%@ Register TagPrefix="asp" Namespace="GoogleRecaptchaWebForms"
+    Assembly="GoogleRecaptchaWebForms" %>
 ```
 
-Next you can use server control of Google Recaptcha for any page or user control:
+Next you can use server control of Google Recaptcha for any page or user control with following syntax:
 ```xml
 ...
     <asp:RecaptchaV2Control ID="gRecaptcha" SiteKey="[YOUR_SITE_KEY]"
@@ -101,7 +102,7 @@ If any issue or bug, please push a new issue [here](https://github.com/congdongd
 * 1.0.1: Add the meaningful comments into code and fix some following performance bugs:
     * Dispose and close the unnecessary resources when using MemoryStream.
     * Use the HtmlHelper class in the namespace System.Web.Mvc instead of System.Web.WebPages.Html.
-* 1.1.1: Support the Google Recaptcha version 2 for asp.net web forms.
+* __1.1.1__: Support the Google Recaptcha version 2 for asp.net web forms.
 
 ### Copyright and License
 Copyright 2015 by CongDongDotNet - MIT License
