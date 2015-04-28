@@ -98,11 +98,12 @@ Finally on the server-side, you can verify the captcha by using __Page.IsValid__
 If any issue or bug, please push a new issue [here](https://github.com/congdongdotnet/GoogleRecaptcha/issues).
 
 ### Release Notes
-* 1.0.0: The first version supports only for Google reCaptcha version 2 and asp.net mvc 4(or higher).
+* 1.2.1: Enable to set the custom values for 2 properties(Response and RemoteIp) in RecaptchaV2Data class.
+* 1.1.1: Support the Google Recaptcha version 2 for asp.net web forms.
 * 1.0.1: Add the meaningful comments into code and fix some following performance bugs:
     * Dispose and close the unnecessary resources when using MemoryStream.
     * Use the HtmlHelper class in the namespace System.Web.Mvc instead of System.Web.WebPages.Html.
-* __1.1.1__: Support the Google Recaptcha version 2 for asp.net web forms.
+* 1.0.0: The first version supports only for Google reCaptcha version 2 and asp.net mvc 4(or higher).
 
 ### Copyright and License
 Copyright 2015 by CongDongDotNet - MIT License
