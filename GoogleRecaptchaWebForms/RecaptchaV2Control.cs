@@ -86,33 +86,49 @@
 		{
 			IRecaptcha<RecaptchaV2Result> recaptcha = new RecaptchaV2(
 				new RecaptchaV2Data() { Secret = SecretKey });
-			var result = recaptcha.Verify();
-			IsValid = result.Success;
-			if (IsValid) return;
-			if(result.ErrorCodes.Length > 0)
+			RecaptchaV2Result result = null;
+
+			try
 			{
-				ErrorMessage = String.Empty;
-				foreach (var errorCode in result.ErrorCodes)
+				result = recaptcha.Verify();
+				if (result == null)
 				{
-					switch (errorCode)
+					ErrorMessage = "Oops! Unknown error!";
+					return;
+				}
+
+				IsValid = result.Success;
+				if (IsValid) return;
+
+				if (result.ErrorCodes != null && result.ErrorCodes.Length > 0)
+				{
+					ErrorMessage = String.Empty;
+					foreach (var errorCode in result.ErrorCodes)
 					{
-						case "missing-input-secret":
-							ErrorMessage += "The secret parameter is missing - ";
-							break;
-						case "invalid-input-secret":
-							ErrorMessage += "The secret parameter is invalid or malformed - ";
-							break;
-						case "missing-input-response":
-							ErrorMessage += "The response parameter is missing - ";
-							break;
-						case "invalid-input-response":
-							ErrorMessage += "The response parameter is invalid or malformed - ";
-							break;
+						switch (errorCode)
+						{
+							case "missing-input-secret":
+								ErrorMessage += "The secret parameter is missing - ";
+								break;
+							case "invalid-input-secret":
+								ErrorMessage += "The secret parameter is invalid or malformed - ";
+								break;
+							case "missing-input-response":
+								ErrorMessage += "The response parameter is missing - ";
+								break;
+							case "invalid-input-response":
+								ErrorMessage += "The response parameter is invalid or malformed - ";
+								break;
+						}
+						ErrorMessage = ErrorMessage.TrimEnd(' ', '-');
 					}
-					ErrorMessage = ErrorMessage.TrimEnd(' ', '-');
+				}
+				else
+				{
+					ErrorMessage = "Oops! Unknown error!";
 				}
 			}
-			else
+			catch (Exception)
 			{
 				ErrorMessage = "Oops! Unknown error!";
 			}
