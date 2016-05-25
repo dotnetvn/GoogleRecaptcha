@@ -90,7 +90,10 @@ Next you can use server control of Google Recaptcha for any page or user control
     <asp:RecaptchaV2Control ID="gRecaptcha" SiteKey="[YOUR_SITE_KEY]"
         SecretKey="[YOUR_SECRET_KEY]" runat="server"/>
 ...
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 ```
+
+Please make note that the google recaptcha library must be included inside the *head* tag or the *body* tag.
 
 Finally on the server-side, you can verify the captcha by using __Page.IsValid__ or __gRecaptcha.IsValid__. The success is __true__, otherwise is __false__
 
